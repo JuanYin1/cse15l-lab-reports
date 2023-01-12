@@ -58,15 +58,20 @@ To explain these commands:
 
 ---
 ### Part 6 - Create github accound and use it
+#### Create files
 1. I already have a github account, and I used this account to create a Repository by cliking the right-top `+` button and then `New repository` botton.  
 2. Then follow the [instruction](https://ucsd-cse15l-w23.github.io/week/week1/#editing-markdown) to name it as `cse15l-lab-reports`, and clik the `Create repository` botton.
 3. Create a file names `index.md` and added some text, and I create another file, with another name but end with`.md` as well.
-4. Go to setting, and then choose the `Pages` option in the sidebar. 
-5. Change `None` to `main` as the source for Github Pages, and click `Save`. 
-6. At the top it’ll say `GitHub Pages source saved`. Wait a bit and refresh the page. 
+4. This is what inside my `cse15l-lab-reports` repository currently:  
+<img width="1420" alt="截屏2023-01-11 19 10 06" src="https://user-images.githubusercontent.com/79886525/211967232-e3d0632b-78a5-49ca-b56f-16a505191c0d.png">
+
+#### Display md file using links
+1. Go to `setting`, and then choose the `Pages` option in the sidebar. 
+2. Change `None` to `main` as the source for Github Pages, and click `Save`. 
+3. At the top it’ll say `GitHub Pages source saved`. Wait a bit and refresh the page. 
 Eventually you’ll see a message that says `Your site is live at <url here>.` (This can take a few minutes!)
 Click the link that’s shown there.
-7. A new page pops up, and the text I added in the `index.md` shows up.
+3. A new page pops up, and the text I added in the `index.md` shows up.
 
 What I Found:  
   I added `index.html` to the end of the link, the page will not change.  
@@ -77,10 +82,10 @@ I Learned:
   
 ---
 ### Part 6 - Create lab report file
-refer to the markdown style to create a lab report, which is a good way to do a review.
-refer to these links:
-  [what is markdown](https://www.markdownguide.org/getting-started/)
-  [basic markdown](https://commonmark.org/help/)
-  [fun fect](https://github.com/ucsd-cse15l-w22/ucsd-cse15l-w22.github.io/blob/main/_posts/weeks/2022-01-10-week2.md)
+Refer to the markdown style to create a lab report, which is a good way to do a review.  
+Refer to these links:  
+  + [what is markdown](https://www.markdownguide.org/getting-started/)  
+  + [basic markdown](https://commonmark.org/help/)   
+  + [fun fect](https://github.com/ucsd-cse15l-w22/ucsd-cse15l-w22.github.io/blob/main/_posts/weeks/2022-01-10-week2.md)  
   
 
