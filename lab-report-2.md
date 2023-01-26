@@ -31,10 +31,10 @@ java StringServer 6677
 ```diff
 + Valid input 1  
 
-.../add-message?s=first input
-.../add-message?s=second input
-.../add-message?s=third input
-.../
+https://localhost:6655/add-message?s=first input
+https://localhost:6655/add-message?s=second input
+https://localhost:6655/add-message?s=third input
+https://localhost:6655/
 ```
 the output:  
 <img width="448" alt="屏幕截图_20230125_200354" src="https://user-images.githubusercontent.com/79886525/214766359-dd1b883e-b4d6-445c-8fc2-49cf30a49e41.png">
@@ -47,7 +47,17 @@ the output:
 <tbody>
 <tr>
 <td>handleRequest(URI url) <br> getPath() <br>contains("/add-message")<br>getQuery()<br>split("=")<br>equals("s")<br>add(parameters[1])<br>add("\n")</td>
-<td>URI url<br>"/add-message"<br>"="<br>"s"<br>parameters[1]<br>"\n"</td>
+<td>URI url:
+  <br>https://localhost:6655/add-message?s=first input
+  <br>https://localhost:6655/add-message?s=second input
+  <br>https://localhost:6655/add-message?s=third input
+  <br>https://localhost:6655/
+  <br>
+  <br>parameters[1]:
+  <br>"first input"
+  <br>"second input"
+  <br>"third input"
+  </td>"/"
 <td>After url be passed into the method as a parameter, there is a if-else if-else statement to check if there is any useful info that could be stored into the ArrayList.<br>  The else if statement found the key word:"add-message", and it also found the Query by calling split and equals methods. <br>Therefore, the String after "=" will be stored into the ArraList<br> And after append three strings into the ArrayList, the fourth command goes to the "if" statement, and I convert the ArrayList to Array and finally to String, after that, I replaced some symbols that should not appear when display the output.</td>
 </tr>
 </tbody>
@@ -60,8 +70,8 @@ the output:
 ```diff
 - Invalid input 1  
 
-/errorinput
-/add-message?donothaveequalsign
+https://localhost:6677/errorinput
+https://localhost:6677/add-message?donothaveequalsign
 ```
 The outputs:  
 <img width="305" alt="屏幕截图_20230125_204718" src="https://user-images.githubusercontent.com/79886525/214766409-17118057-9067-4045-917d-4b8600a150a7.png">  
@@ -76,8 +86,16 @@ The outputs:
 <tbody>
 <tr>
 <td>handleRequest(URI url)<br>getPath()</td>
-<td>URI url</td>
+<td>URI url:
+  <br>https://localhost:6677/errorinput
+  <br>https://localhost:6677/add-message?donothaveequalsign
+  </td>
 <td>The ArrayList will not change since the command is not right.<br> For the first command, it do not have "add-message" in it's path, so it go to the else statement, and dispaly the Not Found message<br> For second command, it has "add-message" in it's path, so it go to the else if statement, but it do not has "s" key word, so it will show an "addError"</td>
 </tr>
 </tbody>
 </table>
+
+
+--- 
+
+# Part 2
