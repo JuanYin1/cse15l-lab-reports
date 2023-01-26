@@ -99,3 +99,74 @@ The outputs:
 --- 
 
 # Part 2
+
+- My code setup:  
+<img width="774" alt="截屏2023-01-25 22 20 11" src="https://user-images.githubusercontent.com/79886525/214770499-6665f8a9-0f29-4a93-914c-7073280c2d59.png">   
+
+- failure-inducing input:  
+<pre><code>
+    assertEquals(s2, ListExamples.filter(s1, sc));
+</code></pre>
+
+- inputs that doesn’t induce a failure:  
+<pre><code>
+    assertEquals(s3, ListExamples.filter(s5, sc));
+    assertEquals(s6, ListExamples.filter(s4, sc));
+</code></pre>
+
+- Screenshot of symptom:  
+<img width="895" alt="截屏2023-01-26 14 01 46" src="https://user-images.githubusercontent.com/79886525/214960636-55757ad6-db3c-4da3-96d5-e7942997af1f.png">
+
+- The bug:  
+
+Before fix it:  
+<pre><code>
+    static List<String> filter(List<String> list, StringChecker sc) {
+      List<String> result = new ArrayList<>();
+      for(String s: list) {
+        if(sc.checkString(s)) {
+          result.add(0, s);
+        }
+      }
+      return result;
+    }
+</code></pre>. 
+
+After fix it:  
+<pre><code>
+    static List<String> filter(List<String> list, StringChecker sc) {
+      List<String> result = new ArrayList<>();
+      for(String s: list) {
+        if(sc.checkString(s)) {
+          result.add(s);
+        }
+      }
+      return result;
+    }
+</code></pre>  
+
+- Explain:  
+I found that the method returns the correct element, but wrong order.  
+And inside the `filter` method, it use for loop and add method to add each element which is valid.   
+However, it used `add(index, element)`, which means each time it add element, it will **prepend** element to the arraylist.  
+To debug, just remove the `index` part, which means change `add(index, element)` to `add(element)`.
+
+
+---
+
+
+# Part 3
+### What I learned from lab2:  
+* I learned how to compile and run two classes using terminal
+* I learned url includes Protocal, Domain, Path and Query
+* I learned how to download and update github document through `GitHub Desktop`
+* I learned run the server on a remote computer by using `git clone` command
+
+
+
+### What I learned from lab3:
+* I need to create a concrete class for interface class before I pass an object of that class as a parameter into a method.
+* Different operating system uses different commands to run JUnit, but both of them need `-cp` command
+* I learned how to undersatnd the test result by checking the output
+* I learned `@Test` is one of the annotations of JUnit, which tells JUnit that it is a test case
+* When we test method, we could create some variables and using reference to avoid repetitive tests
