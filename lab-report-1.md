@@ -10,13 +10,18 @@ Here is our report: [report](https://docs.google.com/document/d/1O-gmLX9vhuAqxz7
 ---
 ### Part 2 - Check my 15L Account and change the password
 I use the [Link](https://sdacs.ucsd.edu/~icc/index.php) to check my account by type my user name and student ID.  
-Then follow the steps on [TUTORIA](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit) to reset my password. 
+Then follow the steps on [TUTORIAL](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit) to reset my password. 
 After successfully changed my password, during the time of system processing, you could go to the part 3 to instell VScode if you didn't download it yet. 
 
 
 ---
-### Part 3 - Instell VScode
-I already download VScode in my device, and it looks like this:  
+### Part 3 - Install VScode
+If you did not download Visual Studio Code, go to the [website](https://code.visualstudio.com/) to install it on your computer.  
+If you are using windows operating system, download the `Windows x64` version;  
+If you are using mac operating system, download the `maxOS` version:
+<img width="1280" alt="截屏2023-01-25 16 31 58" src="https://user-images.githubusercontent.com/79886525/214726930-3ed77334-2a4a-47e8-9ff0-a1ae46f211e4.png">
+
+I already download VScode in my device, and if you successfully download it, it should look like this: 
 <img width="1020" alt="截屏2023-01-11 18 00 57" src="https://user-images.githubusercontent.com/79886525/211958283-80b4e80f-7956-4c1c-83a7-1701f1baa431.png">
 
 
