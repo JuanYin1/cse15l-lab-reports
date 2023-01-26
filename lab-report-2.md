@@ -37,6 +37,7 @@ java StringServer 6677
 .../
 ```
 the output:  
+<img width="448" alt="屏幕截图_20230125_200354" src="https://user-images.githubusercontent.com/79886525/214766359-dd1b883e-b4d6-445c-8fc2-49cf30a49e41.png">
 
 
 <table>
@@ -62,7 +63,10 @@ the output:
 /errorinput
 /add-message?donothaveequalsign
 ```
-The output:  
+The outputs:  
+<img width="305" alt="屏幕截图_20230125_204718" src="https://user-images.githubusercontent.com/79886525/214766409-17118057-9067-4045-917d-4b8600a150a7.png">  
+<img width="383" alt="屏幕截图_20230125_204842" src="https://user-images.githubusercontent.com/79886525/214766451-282cde84-3409-4dfd-b3b7-9c7702b5e324.png">
+
 
 
 <table>
