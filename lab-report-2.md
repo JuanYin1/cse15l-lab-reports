@@ -120,7 +120,7 @@ The outputs:
 - The bug:  
 
 Before fix it:  
-<pre><code>
+```  
     static List<String> filter(List<String> list, StringChecker sc) {
       List<String> result = new ArrayList<>();
       for(String s: list) {
@@ -130,10 +130,10 @@ Before fix it:
       }
       return result;
     }
-</code></pre>. 
+```   
 
 After fix it:  
-<pre><code>
+```  
     static List<String> filter(List<String> list, StringChecker sc) {
       List<String> result = new ArrayList<>();
       for(String s: list) {
@@ -143,7 +143,7 @@ After fix it:
       }
       return result;
     }
-</code></pre>  
+```  
 
 - Explain:  
 I found that the method returns the correct element, but wrong order.  
