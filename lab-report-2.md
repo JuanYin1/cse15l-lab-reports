@@ -57,7 +57,8 @@ the output:
   <br>"first input"
   <br>"second input"
   <br>"third input"
-  </td>"/"
+  <br>"/"
+  </td>
 <td>After url be passed into the method as a parameter, there is a if-else if-else statement to check if there is any useful info that could be stored into the ArrayList.<br>  The else if statement found the key word:"add-message", and it also found the Query by calling split and equals methods. <br>Therefore, the String after "=" will be stored into the ArraList<br> And after append three strings into the ArrayList, the fourth command goes to the "if" statement, and I convert the ArrayList to Array and finally to String, after that, I replaced some symbols that should not appear when display the output.</td>
 </tr>
 </tbody>
