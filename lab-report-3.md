@@ -1,4 +1,4 @@
-# grep command
+# Lab Report 3 - grep command
 
 ## 1. Colorizing Grep results using the --color option  
 This command is useful when we need to find a specific pattern in a file while the file is long, or we need to count the times the specific pattern appears.  
