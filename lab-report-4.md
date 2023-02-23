@@ -26,8 +26,8 @@ start timer.
   * Keys pressed: `shh <up> <enter>`  
   * Reason: after I type `ssh` and then press `<up>` key, this command will show up since this is the only command related to `ssh` in the search history, so I used up arrow to access it.
   
-* After entering my password, press `<Enter>` to log in, and the there is the output of the command:
-<img width="764" alt="截屏2023-02-22 14 18 42" src="https://user-images.githubusercontent.com/79886525/220859183-0ffe71d2-b3c5-459f-b347-4a1b89bc070a.png">  
+* After entering my password, press `<Enter>` to log in, and the there is the output of the command:  
+ <img width="764" alt="截屏2023-02-22 14 18 42" src="https://user-images.githubusercontent.com/79886525/220859183-0ffe71d2-b3c5-459f-b347-4a1b89bc070a.png">  
 
 
 ---  
@@ -39,7 +39,7 @@ start timer.
   * Keys pressed: `git clone <up><up><up><up><up><enter>`  
   * Reason: `git clone` was 5 up my search history, so I could use up arrow access it.  
 
-* The output:
+* The output:  
 <img width="531" alt="截屏2023-02-22 14 19 42" src="https://user-images.githubusercontent.com/79886525/220859979-307c8730-7262-4928-94ca-3df413e05069.png">  
 
 
@@ -64,7 +64,7 @@ start timer.
   * Keys pressed: `java <up><up><up><enter>`  
   * Reason: `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples` command was 3 up in my search history, so I could use up arrow access it.    
 
-* The output:
+* The output:  
 <img width="830" alt="截屏2023-02-22 14 24 06" src="https://user-images.githubusercontent.com/79886525/220863036-887f17e1-372c-4298-8011-24109509852e.png">  
 
 ---
@@ -107,7 +107,7 @@ After enter the nano, I found the error and fixed it.
   * Keys pressed: `java <up><up><enter>`  
   * Reason: `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples` command was 2 up in my search history, so I could use up arrow access it.  
 
-* The output: 
+* The output:   
 <img width="970" alt="截屏2023-02-23 01 31 31" src="https://user-images.githubusercontent.com/79886525/220869024-2ebce705-2687-491a-b7bc-e42486a22ef9.png">
 
 As we can see, I fixed the error.
@@ -130,7 +130,7 @@ As we can see, I fixed the error.
   * Keys pressed: `git push`  
   * Reason: to push what I've changed, so the fixed filr will show in the website.
 
-* The output:
+* The output:  
 <img width="492" alt="截屏2023-02-22 14 32 38" src="https://user-images.githubusercontent.com/79886525/220870694-36cde8c1-107a-4bb3-a978-f8d60f938789.png">  
 
 
