@@ -81,14 +81,18 @@ start timer.
 <img width="1343" alt="截屏2023-02-22 14 24 31" src="https://user-images.githubusercontent.com/79886525/220863890-f935d2c8-4593-4581-bdd3-52f0dd556971.png">  
 
 After enter the nano, I found the error and fixed it:  
+The error found: the second line inside the last `while` loop, it should be `index2 += 1;` instead of `index1 += 1;`.  
 Since we use nano to edit the txt file, would could edit it through the terminal:
 * First, find the line I want to edit  
 * Second, press `<up>` or `<down>` to find the line that need to edit  
 * Third, press `<left>` or `<right>` to go to the right place to edit  
 * Fourth, press `<delete>` to delete the error and edit the file using keyboard
+* After editing, it should look like this:
+ <img width="276" alt="截屏2023-02-22 14 24 47" src="https://user-images.githubusercontent.com/79886525/223597174-ee4ef94d-e9e6-4750-a166-6b6caeeadc70.png">  
 
 
-#### After fixing  
+
+#### After editing  
 * Command used: `^o`  
   * Keys pressed: `<cntrol>o <Enter>`  
   * Reason: press control and o at the same time to save the change, then press `enter` to save the modified buffer.  
