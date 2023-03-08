@@ -23,7 +23,7 @@ start timer.
 ### Step1: Log into ieng6
 
 * Command used: `ssh cs15lwi23and@ieng6.ucsd.edu`  
-  * Keys pressed: `shh <up> <enter>`  
+  * Keys pressed: `ssh <up> <enter>`  
   * Reason: after I type `ssh` and then press `<up>` key, this command will show up since this is the only command related to `ssh` in the search history, so I used up arrow to access it.
   
 * After entering my password, press `<Enter>` to log in, and the there is the output of the command:  
@@ -50,7 +50,7 @@ start timer.
 ### Step3: Run the tests, demonstrating that they fail
 * Command used: `cd lab7/`  
   * Keys pressed: `cd l<tab><enter>`  
-  * Reason: go to the working derectory lab7 need to use cd command, and after I type `l`, I press `<tab>` key to let computer find the name-matched folder for me, which is faster.  
+  * Reason: go to the working directory lab7 need to use cd command, and after I type `l`, I press `<tab>` key to let computer find the name-matched folder for me, which is faster.  
 
 * Command used: `ls`  
   * Keys pressed: `ls<enter>`   
@@ -80,7 +80,13 @@ start timer.
 * The output:  
 <img width="1343" alt="截屏2023-02-22 14 24 31" src="https://user-images.githubusercontent.com/79886525/220863890-f935d2c8-4593-4581-bdd3-52f0dd556971.png">  
 
-After enter the nano, I found the error and fixed it.
+After enter the nano, I found the error and fixed it:  
+Since we use nano to edit the txt file, would could edit it through the terminal:
+* First, find the line I want to edit  
+* Second, press `<up>` or `<down>` to find the line that need to edit  
+* Third, press `<left>` or `<right>` to go to the right place to edit  
+* Fourth, press `<delete>` to delete the error and edit the file using keyboard
+
 
 #### After fixing  
 * Command used: `^o`  
