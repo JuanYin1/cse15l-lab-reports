@@ -55,8 +55,21 @@ cd ..
 java GradeServer 9999
 ```
 
----  
+---   
 
+#### Explain my code
+Store the compile path to a variable `CPATH`;  
+Remove the exist directory which names `student-submission`;  
+Clone the files from URL, and create a `student-submission` directory in the current working directory, and store files into the `student-submission` directory ;  
+Check if there exist `ListExamples.java` file in `student-submission` directory;
+Copy `TestListExamples.java` file from parent directory to current directory;  
+Compile and run the `ListExamples.java` file;  
+Store the output into the `grade.txt` file;   
+Check the `grade.txt` to see if the file have error by `grep` particular strings;  
+Print the result in the terminal;  
+
+
+---   
 
 
 #### Concepts includes
