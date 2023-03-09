@@ -95,42 +95,42 @@ We could use command as statement in if condition, then we could not check the e
 #### Demonstrate it working on several files
 
 1. For the first URL `https://github.com/ucsd-cse15l-f22/list-methods-lab3`:  
-Expect: A `failure` message. 
+Expect: A `failure` message.  
 Actual: the output gives a `failure` message:  
 <img width="857" alt="截屏2023-03-08 18 34 33" src="https://user-images.githubusercontent.com/79886525/223901180-0c3ce71a-eb93-4dfe-8e54-f23a89f60462.png">  
 
 
-2. For the second URL `https://github.com/ucsd-cse15l-f22/list-methods-corrected`:
-Expect: A `successful` message. 
+2. For the second URL `https://github.com/ucsd-cse15l-f22/list-methods-corrected`:  
+Expect: A `successful` message.  
 Actual: the output gives a `successful` message:  
 <img width="894" alt="截屏2023-03-08 18 36 44" src="https://user-images.githubusercontent.com/79886525/223901583-ad0953a9-6483-4753-bfce-f5fca2f589ed.png">  
 
 
 3. For the third URL `https://github.com/ucsd-cse15l-f22/list-methods-compile-error`:  
-Expect: A message that shows `can not compile`. 
+Expect: A message that shows `can not compile`.   
 Actual: the output gives a `can not compile` message:  
 <img width="927" alt="截屏2023-03-08 18 39 17" src="https://user-images.githubusercontent.com/79886525/223902250-2cb1310c-5eaf-4d74-8a8d-3321a3f8a1da.png">  
 
 
 4. For the fourth URL `https://github.com/ucsd-cse15l-f22/list-methods-signature`:  
-Expect: A `successful` message. 
+Expect: A `successful` message.  
 Actual: the output gives a `successful` message:  
 <img width="898" alt="截屏2023-03-08 18 44 36" src="https://user-images.githubusercontent.com/79886525/223902686-ac5f0b0c-b014-4d6c-bbd8-762cc5b3abe8.png">  
 
 
 5. For the fifth URL `https://github.com/ucsd-cse15l-f22/list-methods-filename`:  
-Expect: A `Did not found the student-submission folder` message. (since the target file have wrong file name)
+Expect: A `Did not found the student-submission folder` message. (since the target file have wrong file name)  
 Actual: the output gives a `Did not found the student-submission folder` message:  
 <img width="898" alt="截屏2023-03-08 18 46 51" src="https://user-images.githubusercontent.com/79886525/223903057-b7afc162-04f5-453f-ba9a-c1dc7dbbc9d9.png">  
 
 
 6. For the sixth URL `https://github.com/ucsd-cse15l-f22/list-methods-nested`:  
-Expect: A `Did not found the student-submission folder` message. (since the target file in the wrong directory)
+Expect: A `Did not found the student-submission folder` message. (since the target file in the wrong directory)  
 Actual: the output gives a `Did not found the student-submission folder` message:  
 <img width="860" alt="截屏2023-03-08 18 52 14" src="https://user-images.githubusercontent.com/79886525/223903886-4dd5ee27-64f9-4456-baaf-a479989c54c0.png">  
 
-7. For the seventh URL `https://github.com/ucsd-cse15l-f22/list-examples-subtle`: 
-Expect: A `Can not compile` or `Can not run file`message. (since there is error in files)
+7. For the seventh URL `https://github.com/ucsd-cse15l-f22/list-examples-subtle`:  
+Expect: A `Can not compile` or `Can not run file`message. (since there is error in files)  
 Actual: the output gives a `Can not run the file` and `failure` message:   
 <img width="880" alt="截屏2023-03-08 18 54 42" src="https://user-images.githubusercontent.com/79886525/223904318-121cc8a2-78e2-44d6-85b8-d32b99909b95.png">  
 
