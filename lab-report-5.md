@@ -59,30 +59,30 @@ java GradeServer 9999
 
 #### Explain my code
 Store the compile path to a variable `CPATH`;  
-Remove the exist directory which names `student-submission`;  
+Remove the existing directory which names `student-submission`;  
 Clone the files from URL, and create a `student-submission` directory in the current working directory, and store files into the `student-submission` directory ;  
-Check if there exist `ListExamples.java` file in `student-submission` directory;
-Copy `TestListExamples.java` file from parent directory to current directory;  
+Check if there exists `ListExamples.java` file in `student-submission` directory;
+Copy the `TestListExamples.java` file from parent directory to current directory;  
 Compile and run the `ListExamples.java` file;  
 Store the output into the `grade.txt` file;   
-Check the `grade.txt` to see if the file have error by `grep` particular strings;  
+Check the `grade.txt` to see if the file has error by `grep` particular strings;  
 Print the result in the terminal;  
 
 
 ---   
 
 
-#### Concepts includes
+#### Concepts include
 
 1. variable declaration:   
 Always Capitalize all letters of the name of variable;  
-And when we need wo use the variable, use `$` before the name of variable.
+And when we need to use the variable, use `$` before the name of variable.
 
 2. `if git clone $1 student-submission; then`  
-We could use command as statement in if condition, then we could not check the exiting code use `if [[ $? -eq 0 ]]` to check if it works.  
+We could use command as a statement in if condition, then we could not check the exiting code use `if [[ $? -eq 0 ]]` to check if it works.  
 
 3. `rm -rf` command will delete corresponding directory without questioning
-4. Check if directory exist using `-f` inside if condition   
+4. Check if the directory exists using `-f` inside if condition   
 5. `grep` command used to print the line which includes the particular string  
 6. it's good to `echo` the result after each command, therefore user could track the process  
 7. If the command is not run successfully, it's good to use `exit 1` to exit the code.
